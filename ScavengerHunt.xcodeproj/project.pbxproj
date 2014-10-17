@@ -13,6 +13,9 @@
 		2785D61719F084FC005AFE50 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2785D61619F084FC005AFE50 /* Images.xcassets */; };
 		2785D61A19F084FC005AFE50 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2785D61819F084FC005AFE50 /* LaunchScreen.xib */; };
 		2785D62619F084FC005AFE50 /* ScavengerHuntTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2785D62519F084FC005AFE50 /* ScavengerHuntTests.swift */; };
+		2785D63019F0906D005AFE50 /* ListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2785D62F19F0906D005AFE50 /* ListViewController.swift */; };
+		2785D63219F0A9BC005AFE50 /* ScavengerHuntItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2785D63119F0A9BC005AFE50 /* ScavengerHuntItem.swift */; };
+		2785D63419F0BD9D005AFE50 /* ItemsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2785D63319F0BD9D005AFE50 /* ItemsManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +39,9 @@
 		2785D61F19F084FC005AFE50 /* ScavengerHuntTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ScavengerHuntTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2785D62419F084FC005AFE50 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2785D62519F084FC005AFE50 /* ScavengerHuntTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScavengerHuntTests.swift; sourceTree = "<group>"; };
+		2785D62F19F0906D005AFE50 /* ListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListViewController.swift; sourceTree = "<group>"; };
+		2785D63119F0A9BC005AFE50 /* ScavengerHuntItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScavengerHuntItem.swift; sourceTree = "<group>"; };
+		2785D63319F0BD9D005AFE50 /* ItemsManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItemsManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,9 +86,12 @@
 				2785D60F19F084FC005AFE50 /* AppDelegate.swift */,
 				2785D61119F084FC005AFE50 /* ViewController.swift */,
 				2785D61319F084FC005AFE50 /* Main.storyboard */,
+				2785D62F19F0906D005AFE50 /* ListViewController.swift */,
 				2785D61619F084FC005AFE50 /* Images.xcassets */,
 				2785D61819F084FC005AFE50 /* LaunchScreen.xib */,
 				2785D60D19F084FC005AFE50 /* Supporting Files */,
+				2785D63119F0A9BC005AFE50 /* ScavengerHuntItem.swift */,
+				2785D63319F0BD9D005AFE50 /* ItemsManager.swift */,
 			);
 			path = ScavengerHunt;
 			sourceTree = "<group>";
@@ -214,6 +223,9 @@
 			files = (
 				2785D61219F084FC005AFE50 /* ViewController.swift in Sources */,
 				2785D61019F084FC005AFE50 /* AppDelegate.swift in Sources */,
+				2785D63219F0A9BC005AFE50 /* ScavengerHuntItem.swift in Sources */,
+				2785D63019F0906D005AFE50 /* ListViewController.swift in Sources */,
+				2785D63419F0BD9D005AFE50 /* ItemsManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
